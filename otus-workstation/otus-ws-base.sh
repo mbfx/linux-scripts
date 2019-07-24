@@ -6,7 +6,7 @@ yes | yum -y -q install wget vim
 echo "Installing VirtualBox repo..."
 if [[ ! -e /etc/yum.repos.d/virtualbox.repo ]]
     then
-        wget http://download.virtualbox.org/virtualbox/rpm/rhel/virtualbox.repo --derwctory-prefix=/etc/yum.repos.d/ --quiet
+        wget http://download.virtualbox.org/virtualbox/rpm/rhel/virtualbox.repo --directory-prefix=/etc/yum.repos.d/ --quiet
     else
         "File /etc/yum.repos.d/virtualbox.repo exist!"
 fi 
