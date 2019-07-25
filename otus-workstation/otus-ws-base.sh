@@ -24,6 +24,6 @@ echo "Installing Vagrant 2.2.5..."
 yes | yum -y -q install https://releases.hashicorp.com/vagrant/2.2.5/vagrant_2.2.5_x86_64.rpm
 
 echo "Installing Git..."
-yes | yum -y -q install Git
+yes | yum -y -q install git
 
 exit 0
