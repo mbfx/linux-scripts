@@ -1,4 +1,4 @@
 #!/usr/bin/bash
 
-echo "Installing wget and vim..."
+echo "Installing HyperV daemons..."
 yes | yum -y -q install hyperv-daemons
